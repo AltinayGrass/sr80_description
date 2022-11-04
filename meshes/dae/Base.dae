@@ -5,8 +5,8 @@
       <author>Blender User</author>
       <authoring_tool>Blender 3.1.2 commit date:2022-03-31, commit time:17:40, hash:cc66d1020c3b</authoring_tool>
     </contributor>
-    <created>2022-11-04T11:15:41</created>
-    <modified>2022-11-04T11:15:41</modified>
+    <created>2022-11-04T13:43:39</created>
+    <modified>2022-11-04T13:43:39</modified>
     <unit name="meter" meter="1"/>
     <up_axis>Z_UP</up_axis>
   </asset>
@@ -19,7 +19,7 @@
               <color sid="emission">0 0 0 1</color>
             </emission>
             <diffuse>
-              <color sid="diffuse">0.8 0.8 0.8 1</color>
+              <color sid="diffuse">0.4969331 0.01298292 0.005181531 1</color>
             </diffuse>
             <index_of_refraction>
               <float sid="ior">1.45</float>
