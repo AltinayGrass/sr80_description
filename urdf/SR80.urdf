@@ -204,7 +204,7 @@
     </joint>
 
     <joint name="J2" type="revolute">
-      <origin xyz="0.175 0 0" rpy="1.570796327 -1.5707963270"/>
+      <origin xyz="0.175 0 0" rpy="1.570796327 -1.570796327 0"/>
       <parent link="L1"/>
       <child link="L2"/>
       <axis xyz="0 0 1.0"/>
