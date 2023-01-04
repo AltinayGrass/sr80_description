@@ -254,5 +254,65 @@
     <material name="white">
       <color rgba="0.87962 0.8388 0.75294 1.0"/>
     </material>
-
+    
+    <transmission name="trans_J1">
+        <type>transmission_interface/SimpleTransmission</type>
+        <joint name="J1">
+            <hardwareInterface>hardware_interface/PosVelJointInterface</hardwareInterface>
+        </joint>
+        <actuator name="J1_motor">
+            <hardwareInterface>hardware_interface/PosVelJointInterface</hardwareInterface>
+            <mechanicalReduction>1</mechanicalReduction>
+        </actuator>
+    </transmission>
+    <transmission name="trans_J2">
+        <type>transmission_interface/SimpleTransmission</type>
+        <joint name="J2">
+            <hardwareInterface>hardware_interface/PosVelJointInterface</hardwareInterface>
+        </joint>
+        <actuator name="J2_motor">
+            <hardwareInterface>hardware_interface/PosVelJointInterface</hardwareInterface>
+            <mechanicalReduction>1</mechanicalReduction>
+        </actuator>
+    </transmission>
+    <transmission name="trans_J3">
+        <type>transmission_interface/SimpleTransmission</type>
+        <joint name="J3">
+            <hardwareInterface>hardware_interface/PosVelJointInterface</hardwareInterface>
+        </joint>
+        <actuator name="J3_motor">
+            <hardwareInterface>hardware_interface/PosVelJointInterface</hardwareInterface>
+            <mechanicalReduction>1</mechanicalReduction>
+        </actuator>
+    </transmission>
+    <transmission name="trans_J4">
+        <type>transmission_interface/SimpleTransmission</type>
+        <joint name="J4">
+            <hardwareInterface>hardware_interface/PosVelJointInterface</hardwareInterface>
+        </joint>
+        <actuator name="J4_motor">
+            <hardwareInterface>hardware_interface/PosVelJointInterface</hardwareInterface>
+            <mechanicalReduction>1</mechanicalReduction>
+        </actuator>
+    </transmission>
+    <transmission name="trans_J5">
+        <type>transmission_interface/SimpleTransmission</type>
+        <joint name="J5">
+            <hardwareInterface>hardware_interface/PosVelJointInterface</hardwareInterface>
+        </joint>
+        <actuator name="J5_motor">
+            <hardwareInterface>hardware_interface/PosVelJointInterface</hardwareInterface>
+            <mechanicalReduction>1</mechanicalReduction>
+        </actuator>
+    </transmission>
+    <transmission name="trans_J6">
+        <type>transmission_interface/SimpleTransmission</type>
+        <joint name="J6">
+            <hardwareInterface>hardware_interface/PosVelJointInterface</hardwareInterface>
+        </joint>
+        <actuator name="J6_motor">
+            <hardwareInterface>hardware_interface/PosVelJointInterface</hardwareInterface>
+            <mechanicalReduction>1</mechanicalReduction>
+        </actuator>
+    </transmission>
   </robot>
